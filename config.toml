@@ -1,3 +1,26 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://easyrpg.app/'
+#languageCode = 'en-us'
+
+# This is a "one page"-website, so we do not need these kinds of pages...
+disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+
+defaultContentLanguage = "en"
+theme = "hugo-scroll"
+
+title = "EasyRPG App - Play your RPGs everywhere"
+
+[params]
+    copyright = "[This Site](/site) © [EasyRPG team](https://easyrpg.org/contact)"
+    description = "RPG Maker 2000/2003 interpreter for Android phones"
+    favicon = "favicon.ico"
+
+    # TODO: fill
+    #images = ["images/cover-image.jpg"]
+
+    title = "EasyRPG App - Play your RPGs everywhere"
+
+    # part of the copyright
+    hidedesignbyline = true
+
+    [params.meta]
+        keywords = "easyrpg, player, games, rpg maker, 2000, 2003"
