@@ -10,7 +10,7 @@ theme = "hugo-scroll"
 title = "EasyRPG App - Play your RPGs everywhere"
 
 [params]
-    copyright = "[This Site](/site) © [EasyRPG team](https://easyrpg.org/contact)"
+    copyright = "[This Site](./site/) © [EasyRPG team](https://easyrpg.org/contact)"
     description = "RPG Maker 2000/2003 interpreter for Android phones"
     favicon = "favicon.ico"
 
@@ -22,5 +22,5 @@ title = "EasyRPG App - Play your RPGs everywhere"
     # part of the copyright
     hidedesignbyline = true
 
-    [params.meta]
-        keywords = "easyrpg, player, games, rpg maker, 2000, 2003"
+[params.meta]
+    keywords = "easyrpg, player, games, rpg maker, 2000, 2003"
